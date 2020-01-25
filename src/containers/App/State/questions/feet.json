@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Turn-Out",
+    "answer": false,
+    "type": "checkbox",
+    "conditional": false
+  },
+  {
+    "question": "Right Foot",
+    "answer": false,
+    "type": "checkbox",
+    "conditional": true,
+    "on": "Turn-Out"
+  },
+  {
+    "question": "Left Foot",
+    "answer": false,
+    "type": "checkbox",
+    "conditional": true,
+    "on": "Turn-Out"
+  },
+  {
+    "question": "Turning-Out Comment",
+    "answer": "",
+    "type": "input",
+    "conditional": true,
+    "on": "Turn-Out"
+  },
+  {
+    "question": "Flatten",
+    "answer": false,
+    "type": "checkbox",
+    "conditional": false
+  },
+  {
+    "question": "Right Foot",
+    "answer": false,
+    "type": "checkbox",
+    "conditional": true,
+    "on": "Flatten"
+  },
+  {
+    "question": "Left Foot",
+    "answer": false,
+    "type": "checkbox",
+    "conditional": true,
+    "on": "Flatten"
+  },
+  {
+    "question": "Flattening Comment",
+    "answer": "",
+    "type": "input",
+    "conditional": true,
+    "on": "Flatten"
+  }
+]
