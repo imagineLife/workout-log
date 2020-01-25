@@ -1,2 +1,2 @@
-import App from './App';
-export default App;
+import WrappedApp from './State/ContextWrapper';
+export default WrappedApp;
