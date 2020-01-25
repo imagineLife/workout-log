@@ -1,0 +1,7 @@
+.question-label{
+	display: block;
+}
+
+.question-label.conditional{
+	margin-left: 15px;
+}
