@@ -9,7 +9,7 @@ const App = () => {
 	
 	return(		
 		<main className="container">
-				<h3>Overhead Assessment</h3>
+				<h3>Overhead Squat Assessment</h3>
 				<form>
 					{ formState && 
 						questionSections &&
