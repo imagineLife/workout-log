@@ -1,0 +1,29 @@
+[
+  {
+    "question": "Arms Turn Out",
+    "answer": false,
+    "type": "checkbox",
+    "conditional": false
+  },
+  {
+    "question": "Right",
+    "answer": false,
+    "type": "checkbox",
+    "conditional": true,
+    "on": "Arms Turn Out"
+  },
+  {
+    "question": "Left",
+    "answer": false,
+    "type": "checkbox",
+    "conditional": true,
+    "on": "Arms Turn Out"
+  },
+  {
+    "question": "Arms Turn Out Comment",
+    "answer": "",
+    "type": "input",
+    "conditional": true,
+    "on": "Arms Turn Out"
+  }
+]
