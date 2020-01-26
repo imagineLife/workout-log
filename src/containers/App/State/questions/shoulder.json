@@ -1,6 +1,6 @@
 [
   {
-    "question": "Arms Turn Out",
+    "question": "Arms Fall Forward",
     "answer": false,
     "type": "checkbox",
     "conditional": false
@@ -10,20 +10,20 @@
     "answer": false,
     "type": "checkbox",
     "conditional": true,
-    "on": "Arms Turn Out"
+    "on": "Arms Fall Forward"
   },
   {
     "question": "Left",
     "answer": false,
     "type": "checkbox",
     "conditional": true,
-    "on": "Arms Turn Out"
+    "on": "Arms Fall Forward"
   },
   {
-    "question": "Arms Turn Out Comment",
+    "question": "Arms Fall Forward Comment",
     "answer": "",
     "type": "input",
     "conditional": true,
-    "on": "Arms Turn Out"
+    "on": "Arms Fall Forward"
   }
 ]

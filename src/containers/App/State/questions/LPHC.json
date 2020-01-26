@@ -6,20 +6,6 @@
     "conditional": false
   },
   {
-    "question": "Right",
-    "answer": false,
-    "type": "checkbox",
-    "conditional": true,
-    "on": "Excessive Forward Lean"
-  },
-  {
-    "question": "Left",
-    "answer": false,
-    "type": "checkbox",
-    "conditional": true,
-    "on": "Excessive Forward Lean"
-  },
-  {
     "question": "Excessive Forward Lean Comment",
     "answer": "",
     "type": "input",
@@ -33,20 +19,6 @@
     "conditional": false
   },
   {
-    "question": "Right",
-    "answer": false,
-    "type": "checkbox",
-    "conditional": true,
-    "on": "Low Back Arches"
-  },
-  {
-    "question": "Left",
-    "answer": false,
-    "type": "checkbox",
-    "conditional": true,
-    "on": "Low Back Arches"
-  },
-  {
     "question": "Low Back Arches Comment",
     "answer": "",
     "type": "input",
@@ -58,20 +30,6 @@
     "answer": false,
     "type": "checkbox",
     "conditional": false
-  },
-  {
-    "question": "Right",
-    "answer": false,
-    "type": "checkbox",
-    "conditional": true,
-    "on": "Low Back Rounds"
-  },
-  {
-    "question": "Left",
-    "answer": false,
-    "type": "checkbox",
-    "conditional": true,
-    "on": "Low Back Rounds"
   },
   {
     "question": "Low Back Rounds Comment",
