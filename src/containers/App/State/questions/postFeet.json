@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Flatten",
+    "answer": false,
+    "type": "checkbox",
+    "conditional": false
+  },
+  {
+    "question": "Right Foot",
+    "answer": false,
+    "type": "checkbox",
+    "conditional": true,
+    "on": "Flatten"
+  },
+  {
+    "question": "Left Foot",
+    "answer": false,
+    "type": "checkbox",
+    "conditional": true,
+    "on": "Flatten"
+  },
+  {
+    "question": "Flattening Comment",
+    "answer": "",
+    "type": "input",
+    "conditional": true,
+    "on": "Flatten"
+  },
+  {
+    "question": "Heels Elevate",
+    "answer": false,
+    "type": "checkbox",
+    "conditional": false
+  },
+  {
+    "question": "Right Foot",
+    "answer": false,
+    "type": "checkbox",
+    "conditional": true,
+    "on": "Heels Elevate"
+  },
+  {
+    "question": "Left Foot",
+    "answer": false,
+    "type": "checkbox",
+    "conditional": true,
+    "on": "Heels Elevate"
+  },
+  {
+    "question": "Heels Elevate Comment",
+    "answer": "",
+    "type": "input",
+    "conditional": true,
+    "on": "Heels Elevate"
+  }
+]

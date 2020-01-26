@@ -3,6 +3,8 @@ import feetQs from './questions/feet.json'
 import kneeQs from './questions/knees.json'
 import lphcQs from './questions/LPHC.json'
 import shoulderQs from './questions/shoulder.json'
+import postFeet from './questions/postFeet.json'
+import postLP from './questions/postFeet.json'
 const AppContext = createContext()
 
 const {Provider, Consumer} = AppContext;
@@ -10,10 +12,12 @@ const {Provider, Consumer} = AppContext;
 const AppProvider = ({children}) => {
 
 	let [formState, setFormState] = useState({
-		'Feet': feetQs,
-		'Knees': kneeQs,
-		'LPHC': lphcQs,
-		'Shoulder Complex': shoulderQs
+		'Anterior Feet': feetQs,
+		'Anterior Knees': kneeQs,
+		'Lateral LPHC': lphcQs,
+		'Lateral Shoulder Complex': shoulderQs,
+		'Posterior Feet': postFeet,
+		'Posterior LPHC': postLP 
 	})
 
 	let updateFormData = (thisObj, curState) => {		
