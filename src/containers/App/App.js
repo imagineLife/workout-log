@@ -43,7 +43,7 @@ const App = () => {
 													>
 														{q.question}
 														<input 
-															id={`question-${qidx}`} 
+															id={`question-${idx}-${qidx}`} 
 															checked={q.answer}
 															onChange={() => {
 																let thisObj = {
