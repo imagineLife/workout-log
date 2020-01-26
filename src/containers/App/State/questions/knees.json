@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Move Inward",
+    "answer": false,
+    "type": "checkbox",
+    "conditional": false
+  },
+  {
+    "question": "Right ",
+    "answer": false,
+    "type": "checkbox",
+    "conditional": true,
+    "on": "Move Inward"
+  },
+  {
+    "question": "Left",
+    "answer": false,
+    "type": "checkbox",
+    "conditional": true,
+    "on": "Move Inward"
+  },
+  {
+    "question": "Move Inward Comment",
+    "answer": "",
+    "type": "input",
+    "conditional": true,
+    "on": "Move Inward"
+  },
+  {
+    "question": "Move Outward",
+    "answer": false,
+    "type": "checkbox",
+    "conditional": false
+  },
+  {
+    "question": "Right",
+    "answer": false,
+    "type": "checkbox",
+    "conditional": true,
+    "on": "Move Outward"
+  },
+  {
+    "question": "Left",
+    "answer": false,
+    "type": "checkbox",
+    "conditional": true,
+    "on": "Move Outward"
+  },
+  {
+    "question": "Move Outward Comment",
+    "answer": "",
+    "type": "input",
+    "conditional": true,
+    "on": "Move Outward"
+  }
+]
