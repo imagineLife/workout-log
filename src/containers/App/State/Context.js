@@ -2,6 +2,7 @@ import React, { createContext, useState } from 'react'
 import feetQs from './questions/feet.json'
 import kneeQs from './questions/knees.json'
 import lphcQs from './questions/LPHC.json'
+import shoulderQs from './questions/shoulder.json'
 const AppContext = createContext()
 
 const {Provider, Consumer} = AppContext;
@@ -11,7 +12,8 @@ const AppProvider = ({children}) => {
 	let [formState, setFormState] = useState({
 		'Feet': feetQs,
 		'Knees': kneeQs,
-		'LPHC': lphcQs
+		'LPHC': lphcQs,
+		'Shoulder Complex': shoulderQs
 	})
 
 	let updateFormData = (thisObj, curState) => {		
